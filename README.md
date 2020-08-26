@@ -1,4 +1,4 @@
-# Sistema de geração da perda da propagação de sinal em RSSF dos simuladores NS-2, NS-3 e TOSSIM.
+# Sistema de geração da perda de sinal da propagação em RSSF dos simuladores NS-2, NS-3 e TOSSIM.
 
 Esse sistema converte uma topologia de rede definida previamente no indicador de intensidade do sinal recebido (RSSI).
 A primeira etapa é preparar o arquivo de entrada do sistema **coord.txt**. Esse arquivo possui os identificadores dos sensores, e suas coordenadas geográficas. Essas coordenadas serão utilizadas como parâmetros para a conversão da distância entre dois sensores em metros, para posteriormente realizar a busca pela perda de potência do sinal do rádio.
